@@ -1,5 +1,5 @@
 defmodule SequencialSearch do
-  def search([], _), do: nil
+  def search([], _), do: -1
 
   def search(list = [_ | _], searched) do
     search(list, searched, 0)
