@@ -24,6 +24,3 @@ defmodule BinarySearch do
     end
   end
 end
-
-# list = [1, 2, 3, 4, 5, 6, 7, 8]
-# BinarySearch.search(list, 8)
